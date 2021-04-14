@@ -1,0 +1,9 @@
+.description {
+  display: flex;
+  justify-content: center;
+  background-image: url(car_map.svg);
+  background-position: center;
+  min-height: 50em;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}

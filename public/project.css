@@ -1,0 +1,15 @@
+@import "library.blocks/fonts/fonts.css";
+@import "library.blocks/logo/logo.css";
+@import "library.blocks/button/button.css";
+@import "library.blocks/a/a.css";
+@import "common.blocks/header/header.css";
+@import "common.blocks/description/description.css";
+
+.html {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
