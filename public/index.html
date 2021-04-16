@@ -18,39 +18,51 @@
   </header>
   <main>
     <article class="description">
-      <h1>Выгодная отправка посылок <strong>в любой город</strong> страны</h1>
+      <h1 class="description__h1">Выгодная отправка посылок <strong class="description__strong">в любой город</strong> страны</h1>
+      <img src="common.blocks/description/car_map.svg" class="description__bg" alt="Car Map">
     </article>
     <article class="features">
-      <section class="features-section">
-        <img src="" alt="">
-        <h2>Это выгодно</h2>
-        <p>В обе стороны: водитель экономит на топливе, отпр-ль на ценах обычной почты</p>
-      </section>
-      <section class="features-section">
-        <img src="" alt="">
-        <h2>Быстро</h2>
-        <p>Посылка едет напрямую в место назначения</p>
-      </section>
-      <section class="features-section">
-        <img src="" alt="">
-        <h2>Доверенные люди</h2>
-        <p>Для вас мы проверяем документы пользователей</p>
-      </section>
+      <div class="features-box">
+        <section class="features-section">
+          <img src="common.blocks/features/money.svg" class="features__img" alt="money" title="Money">
+          <h2 class="features__h2">Это выгодно</h2>
+          <p class="features__p">В обе стороны: водитель экономит на топливе, отпр-ль на ценах обычной почты</p>
+        </section>
+        <section class="features-section">
+          <img src="common.blocks/features/cargo.svg" class="features__img" alt="Cargo" title="Cargo">
+          <h2 class="features__h2">Быстро</h2>
+          <p class="features__p">Посылка едет напрямую в место назначения</p>
+        </section>
+        <section class="features-section">
+          <img src="common.blocks/features/trusted.svg" class="features__img" alt="Trusted" title="Trusted">
+          <h2 class="features__h2">Доверенные люди</h2>
+          <p class="features__p">Для вас мы проверяем документы пользователей</p>
+        </section>
+      </div>
     </article>
     <article class="how-it-works">
-      <h1>Как это работает?</h1>
-      <ol>
-        <li>Публикуете свою поездку</li>
-        <li>Забираете посылку у отправителей</li>
-        <li>Передаете посылку получателю и получаете деньги</li>
-      </ol>
+      <h1 class="how-it-works__h1">Как это работает?</h1>
+      <div class="how-it-works__box">
+        <span class="how-it-works__mark">1</span>
+        <p class="how-it-works__p">Публикуете свою поездку</p>
+      </div>
+      <div class="how-it-works__box">
+        <span class="how-it-works__mark">2</span>
+        <p class="how-it-works__p">Забираете посылку у отправителей</p>
+      </div>
+      <div class="how-it-works__box">
+        <span class="how-it-works__mark">3</span>
+        <p class="how-it-works__p">Передаете посылку получателю и получаете деньги</p>
+      </div>
     </article>
     <article class="feedback">
       <h1>Что говорят наши пользователи?</h1>
-      <video src=""></video>
-      <section>
+      <video class="feedback__video" autoplay muted loop>
+        <source src="common.blocks/feedback/feedback-video.mp4" type="video/mp4">
+      </video>
+      <section class="feedback__section">
         <div>
-          <img src="" alt="">
+          <img src="" alt="avatar" title="Avatar">
           <h3>Иван Иванов</h3>
           <p>житель г. Ижевск</p>
         </div>
@@ -58,8 +70,10 @@
       </section>
     </article>
     <article class="start">
-      <a href="#">Зарегистрироваться</a>
-      <input type="button" class="button" value="Войти">
+      <div>
+        <a href="#" class="__a">Зарегистрироваться</a>
+        <input class="button" type="button" value="Войти">
+      </div>
     </article>
   </main>
   <footer class="footer">
@@ -68,9 +82,9 @@
       <h2>Выгодная отправка посылок <strong>в любой город</strong> страны</h2>
       <p class="copyright">Copyright © Ильгизар Исмакаев</p>
       <div class="social">
-        <a href="#"><img src="" alt="Instagram" title="Instagram" /></a>
-        <a href="#"><img src="" alt="Facebook" title="Facebook" /></a>
-        <a href="#"><img src="" alt="Twitter" title="Twitter" /></a>
+        <a href="#"><img src="common.blocks/footer/instagram.svg" class="footer__img" alt="Instagram" title="Instagram" /></a>
+        <a href="#"><img src="common.blocks/footer/facebook.svg" class="footer__img" alt="Facebook" title="Facebook" /></a>
+        <a href="#"><img src="common.blocks/footer/twitter.svg" class="footer__img" alt="Twitter" title="Twitter" /></a>
       </div>
     </section>
     <section class="footer-section">

@@ -1,0 +1,9 @@
+.start {
+  display: flex;
+  justify-content: center;
+  background-image: url(camper.svg);
+  background-position: center;
+  min-height: 50em;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
